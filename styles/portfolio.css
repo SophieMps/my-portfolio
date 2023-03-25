@@ -65,6 +65,10 @@ p {
   margin: 30px;
 }
 
+.content p {
+  font-size: 14px;
+}
+
 .btn-branding {
   background: var(--branding-color);
   border-radius: 4px;
