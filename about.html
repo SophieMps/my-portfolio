@@ -34,8 +34,21 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="/styles/portfolio.css" />
+   <meta name="description" content="About page for Sophie Basiaridou, Junior front end developer in Greece">
     <title>About</title>
 <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between flex-row-reverse">
+        <ul>
+          <li>
+            <a href="/" title="Homepage"> Home</a>
+          </li>
+          <li  class="active"><a href="/about.html" title="About Sophie">About</a></li>
+          <li><a href="/work.html" title="Sophie's work">Work</a></li>
+          <li><a href="/contact.html" title="Contact Sophie">Contact </a></li>
+        </ul>
+      </nav>
+    </div>
 <div class="content-container container">
     <div class="row">
         <div class="col-lg-6">
@@ -48,9 +61,53 @@
 </div>    
 </div>
     <div class="col-lg-6">
-    <img src="images/Sophie.png" alt="" class="img-fluid">
+    <img src="images/Sophie.png" alt="Sophiephoto" class="img-fluid">
     </div>
     </div>
     </div>
+    <footer class="container">
+        <div
+          class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+        >
+          <div>
+            <h3>Work Inquiry</h3>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a
+              href="/contact.html"
+              title="contact sophie"
+              class="btn btn-branding mt-3"
+              >Contact me</a
+            >
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+          <a href="mailto:sophiebasiaridou@gmail.com" class="email-link"
+            >sophiebasiaridou@gmail.com</a
+          >
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+          <div class="social-links">
+            <a href="https://www.instagram.com/sophiee__mp/" target="_blank"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a href="https://github.com/SophieMps" target="_blank"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/sofia-basiaridou-4b37571b8/"
+              target="_blank"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+          </div>
+        </div>
+        <p class="opensourced text-center text-muted mt-5">
+          ✌This project is coded by Sophie Basiaridou and it is
+          <a href="https://github.com/SophieMps/my-portfolio" target="_blank"
+            >open sourced</a
+          >
+        </p>
+      </footer>
 </body>
 </html>

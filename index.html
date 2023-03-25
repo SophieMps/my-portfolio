@@ -34,18 +34,22 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="/styles/portfolio.css" />
-    <title>Document</title>
+    <meta
+      name="description"
+      content="Sophie Bas Junior front end developer based in Greece, Athens"
+    />
+    <title>Junior front end developer- Sophie Bas</title>
   </head>
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between flex-row-reverse">
         <ul>
           <li class="active">
-            <a href="/"> Home</a>
+            <a href="/" title="Homepage"> Home</a>
           </li>
-          <li><a href="/about.html">About</a></li>
-          <li><a href="/work.html">Work</a></li>
-          <li><a href="/contact.html">Contact </a></li>
+          <li><a href="/about.html" title="About Sophie">About</a></li>
+          <li><a href="/work.html" title="Sophie's work">Work</a></li>
+          <li><a href="/contact.html" title="Contact Sophie">Contact </a></li>
         </ul>
       </nav>
     </div>
@@ -54,14 +58,20 @@
       <h1>Sophie Bas</h1>
       <h2 class="mb-5">Junior front end developer based in Athens</h2>
       <div>
-        <a href="#" class="btn- btn-branding">Contact me</a>
+        <a href="/contact.html" class="btn- btn-branding" title="contact me"
+          >Contact me</a
+        >
       </div>
     </div>
     <p class="text-center m-5">Featured projects from my portfolio</p>
     <div class="container">
       <div class="row mb-5">
         <div class="col d-none d-lg-block">
-          <img src="/images/yogurt2.png" class="img-fluid" alt="" />
+          <img
+            src="/images/yogurt2.png"
+            class="img-fluid"
+            alt="yogurt app preview"
+          />
         </div>
         <div class="col">
           <div class="project-description">
@@ -70,7 +80,9 @@
               Are you looking for some fantastic yogurt and kefir starters for
               homemade preparation? Do you know how to use them?
             </p>
-            <a href="" class="btn btn-branding-outline">Launch project</a>
+            <a href="/work.html" class="btn btn-branding-outline"
+              >Launch project</a
+            >
           </div>
         </div>
       </div>
@@ -83,17 +95,27 @@
               Are you looking for some fantastic yogurt and kefir starters for
               homemade preparation? Do you know how to use them?
             </p>
-            <a href="" class="btn btn-branding-outline">Launch project</a>
+            <a href="/work.html" class="btn btn-branding-outline"
+              >Launch project</a
+            >
           </div>
         </div>
         <div class="col d-none d-lg-block">
-          <img src="/images/weather2.png" class="img-fluid" alt="" />
+          <img
+            src="/images/weather2.png"
+            class="img-fluid"
+            alt="weather app preview"
+          />
         </div>
       </div>
 
       <div class="row mb-5">
         <div class="col d-none d-lg-block">
-          <img src="/images/dictionairy2.png" class="img-fluid" alt="" />
+          <img
+            src="/images/dictionairy2.png"
+            class="img-fluid"
+            alt="dictionary app preview"
+          />
         </div>
         <div class="col">
           <div class="project-description">
@@ -102,7 +124,9 @@
               Are you looking for some fantastic yogurt and kefir starters for
               homemade preparation? Do you know how to use them?
             </p>
-            <a href="" class="btn btn-branding-outline">Launch project</a>
+            <a href="/work.html" class="btn btn-branding-outline"
+              >Launch project</a
+            >
           </div>
         </div>
       </div>
@@ -111,10 +135,17 @@
           class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
         >
           <div>
-            <h4>Work Inquiry</h4>
+            <h3>Work Inquiry</h3>
             <p class="text-muted">Let's work together</p>
           </div>
-          <div><a href="" class="btn btn-branding mt-3">Contact me</a></div>
+          <div>
+            <a
+              href="/contact.html"
+              title="contact sophie"
+              class="btn btn-branding mt-3"
+              >Contact me</a
+            >
+          </div>
         </div>
         <div class="d-flex justify-content-center mb-5">
           <a href="mailto:sophiebasiaridou@gmail.com" class="email-link"
@@ -136,6 +167,12 @@
             ></a>
           </div>
         </div>
+        <p class="opensourced text-center text-muted mt-5">
+          ✌This project is coded by Sophie Basiaridou and it is
+          <a href="https://github.com/SophieMps/my-portfolio" target="_blank"
+            >open sourced</a
+          >
+        </p>
       </footer>
     </div>
   </body>
